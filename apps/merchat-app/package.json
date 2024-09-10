@@ -1,5 +1,5 @@
 {
-  "name": "PayTM",
+  "name": "merchat-app",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -8,19 +8,12 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.45",
     "prettier": "^3.2.5",
-    "tailwindcss": "^3.4.10",
     "turbo": "^2.1.1",
     "typescript": "^5.4.5"
   },
+  "packageManager": "pnpm@8.15.6",
   "engines": {
     "node": ">=18"
-  },
-  "packageManager": "npm@10.2.3",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  }
 }
